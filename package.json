@@ -1,7 +1,7 @@
 {
   "name": "context-add-imports",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "This package will add the text surrounding your cursor to the globals or imports of the current file",
   "keywords": [
     "imports"
@@ -14,6 +14,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
