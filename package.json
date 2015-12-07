@@ -1,0 +1,18 @@
+{
+  "name": "context-add-imports",
+  "main": "./lib/context-add-imports",
+  "version": "0.0.0",
+  "description": "This package will add the text surrounding your cursor to the globals or imports of the current file",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "context-add-imports:addImport"
+  },
+  "repository": "https://github.com/atom/context-add-imports",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

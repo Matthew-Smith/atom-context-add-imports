@@ -1,0 +1,7 @@
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Add to the file imports'
+      'command': 'context-add-imports:addImport'
+    }
+  ]
