@@ -20,6 +20,5 @@ module.exports =
       console.log("Adding #{selection} To imports")
       oldPosition = cursor.getBufferPosition()
       cursor.setBufferPosition("0:0")
-      editor.insertText("/*global #{selection}*/")
-      editor.insertNewline()
+      editor.insertText("/*global #{selection}*/\n")
       cursor.setBufferPosition(oldPosition)
