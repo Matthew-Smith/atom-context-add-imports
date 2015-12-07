@@ -1,4 +1,4 @@
-/*globalasdf activate*/{CompositeDisposable} = require 'atom'
+{CompositeDisposable} = require 'atom'
 
 module.exports =
   subscriptions: null
