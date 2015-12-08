@@ -2,6 +2,20 @@
   'atom-text-editor': [
     {
       'label': 'Add to the file imports'
-      'command': 'context-add-imports:addImport'
+      'command': 'context-add-imports: Add Import'
     }
   ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'context-add-imports'
+      'submenu': [
+        {
+          'label': 'Organize imports'
+          'command': 'context-add-imports: Organize Imports'
+        }
+      ]
+    ]
+  }
+]
