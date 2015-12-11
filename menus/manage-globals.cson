@@ -15,6 +15,10 @@
           'label': 'Organize globals'
           'command': 'manage-globals: Organize Globals'
         }
+        {
+          'label': 'Add Current selected word the file globals'
+          'command': 'manage-globals: Add Global'
+        }
       ]
     ]
   }
