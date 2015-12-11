@@ -7,6 +7,7 @@
     "globals"
   ],
   "activationCommands": {
+    "atom-workspace": "manage-globals: Add Global",
     "atom-workspace": "manage-globals: Organize Globals"
   },
   "repository": "https://github.com/Matthew-Smith/atom-manage-globals",
