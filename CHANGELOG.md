@@ -1,3 +1,6 @@
+## 0.3.0 - Renamed the plugin
+* renamed to globals as it makes more sense for what the plugin is most useful for
+
 ## 0.2.0 - Added organization
 * Added the functionality to organize the imports in alphabetic order
 * made the organize functionality a settings option

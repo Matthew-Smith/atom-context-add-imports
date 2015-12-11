@@ -1,0 +1,21 @@
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Add to the file globals'
+      'command': 'manage-globals: Add Global'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'manage-globals'
+      'submenu': [
+        {
+          'label': 'Organize globals'
+          'command': 'manage-globals: Organize Globals'
+        }
+      ]
+    ]
+  }
+]
